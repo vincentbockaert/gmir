@@ -15,10 +15,10 @@ import (
 var splitCmd = &cobra.Command{
 	Use:   "split",
 	Short: "Split a secret into n shares, requiring the threshold amount of shares to recreate",
-	Long: `
-	Using HashiCorp's (Vault) implementation of Shamir Shared Secrets,
-	this command splits a secret into x so-called shares with y shares required 
-	to recreate the secret (i.e. threshold) with the combine command.
+	Long: `Using HashiCorp's (Vault) implementation of Shamir Shared Secrets,
+this command splits a secret into x so-called shares with y shares required 
+
+to recreate the secret (i.e. threshold) with the combine command.
 	`,
 	Run: func(cmd *cobra.Command, args []string) {
 		shares, err := shamir.Split([]byte(splitInput), splitParts, splitThreshold)

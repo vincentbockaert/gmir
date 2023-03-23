@@ -15,11 +15,10 @@ import (
 var combineCmd = &cobra.Command{
 	Use:   "combine",
 	Short: "Combine n-shares to recreate a secret",
-	Long: `
-	Using HashiCorp's (Vault) implementation of Shamir Shared Secrets,
-	this command will attempt to recreate a secret based on the provided shares inputted to.
+	Long: `Using HashiCorp's (Vault) implementation of Shamir Shared Secrets,
+this command will attempt to recreate a secret based on the provided shares inputted to.
 	
-	If you do not provide enough shares or provide one or more shares, the program will exit.
+If you do not provide enough shares or provide one or more wrong shares, the program will exit.
 	`,
 	Run: func(cmd *cobra.Command, args []string) {
 		var err error

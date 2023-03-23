@@ -40,4 +40,7 @@ func init() {
 	splitCmd.Flags().StringVarP(&splitInput, "input", "i", "SomeSecretHere", "Enter a string as input `-i 'SuperSecret123!'`")
 	splitCmd.Flags().IntVarP(&splitParts, "parts", "p", 5, "Number of parts to split the secret into (max 256)")
 	splitCmd.Flags().IntVarP(&splitThreshold, "threshold", "t", 3, "Threshold of parts required in order to rebuild the secret (min 2)")
+	splitCmd.MarkFlagRequired("input")
+	splitCmd.MarkFlagRequired("parts")
+	splitCmd.MarkFlagRequired("threshold")
 }

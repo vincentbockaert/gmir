@@ -1,6 +1,6 @@
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
-github.com/hashicorp/vault v1.14.0 h1:c+ujeY6SP/6xFF7dn1tfMhn5JPbRntX6lpIaoRUR6LM=
-github.com/hashicorp/vault v1.14.0/go.mod h1:bVRLXpE3TF0NgB/t2pJyox1n7dhtqbsZ5G19G0gpLRw=
+github.com/hashicorp/vault v1.14.1 h1:JBRe4N6g6iu3yWenhlMn9PwSNAQYIQQ6PTYnbccvyxM=
+github.com/hashicorp/vault v1.14.1/go.mod h1:VH1j4CD8lYPQ+XjmgpAF7gt0M2swsARFHndbDyDRgkU=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=

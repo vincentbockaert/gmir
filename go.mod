@@ -3,7 +3,7 @@ module github.com/vincentbockaert/gmir
 go 1.19
 
 require (
-	github.com/hashicorp/vault v1.14.1
+	github.com/hashicorp/vault v1.14.8
 	github.com/spf13/cobra v1.7.0
 )
 

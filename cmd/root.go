@@ -15,7 +15,7 @@ var rootCmd = &cobra.Command{
 	Long: `A small command line tool which allows you to securely split a secret up into x number of shares,
 with only y (>x) number of shares being required to recreate to the secret.
 
-All credit for the crypto-work goes to the HashiCorp, this tool is merely a tiny wrapper around it.
+All credit for the crypto-work goes to HashiCorp, this tool is merely a tiny wrapper around it.
 	`,
 }
 

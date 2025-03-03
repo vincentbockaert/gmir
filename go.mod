@@ -5,7 +5,7 @@ go 1.23.3
 toolchain go1.23.5
 
 require (
-	github.com/hashicorp/vault v1.18.4
+	github.com/hashicorp/vault v1.18.5
 	github.com/spf13/cobra v1.9.1
 )
 

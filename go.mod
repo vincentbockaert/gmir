@@ -1,11 +1,10 @@
 module github.com/vincentbockaert/gmir
 
 go 1.23.3
-
-toolchain go1.23.5
+toolchain go1.24.1
 
 require (
-	github.com/hashicorp/vault v1.18.4
+	github.com/hashicorp/vault v1.19.2
 	github.com/spf13/cobra v1.9.1
 )
 
